@@ -1230,7 +1230,7 @@ $(function(){
 			   }; 
 			   
 		$.ajax({
-		    url: "https://api.odcloud.kr/api/nts-businessman/v1/status?serviceKey=pDeipzjZdVRVsAKgrMXHajaGmUyR8zssMRCTd2%2BbvDrEkA7pzVBNtDMfV34QdrPU6rWjoOKAzBGkXw6MVf81Og%3D%3D",  // serviceKey 값을 xxxxxx에 입력
+		    url: "https://api.odcloud.kr/api/nts-businessman/v1/status?serviceKey=",  // serviceKey 값을 xxxxxx에 입력
 			type: "POST",
 			data: JSON.stringify(data), // json 을 string으로 변환하여 전송
 			dataType: "JSON",
