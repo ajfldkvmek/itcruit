@@ -479,7 +479,7 @@ $(function(){
 
 
 
-Kakao.init('888cfbc715624b5e725ee94bdeb9baae'); //발급받은 키 중 javascript키를 사용해준다.
+Kakao.init(); //발급받은 키 중 javascript키를 사용해준다.
 // console.log(Kakao.isInitialized()); // sdk초기화여부판단
 //카카오로그인
 function kakaoLogin() {
