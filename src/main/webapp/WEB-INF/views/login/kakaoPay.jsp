@@ -22,7 +22,7 @@ function requestPay() {
 	    'Content-Type': 'application/json'
 	  },
 	  processData: false,
-	  data: '{"apiSecret":"PYxr3MVG2rV1t624b5NYArecF73eDUUXkr1qVx5zO5z879fGOKtvWPZdMZ4JrjoAsW3neVWRj1XOeiF1"}'
+	  data: '{"apiSecret":}'
 	};
 	
 	$.ajax(settings).done(function (response) {
